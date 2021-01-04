@@ -1,1 +1,1 @@
-# Auto-Sanitizer-Dispenser-Level-1-
+# Auto Sanitizer Dispenser (Level 1)
