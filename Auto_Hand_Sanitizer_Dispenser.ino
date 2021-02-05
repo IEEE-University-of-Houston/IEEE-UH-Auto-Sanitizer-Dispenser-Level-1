@@ -25,7 +25,7 @@ void loop() {
    * the echo pin becomes a LOW again. The echo pin goes HIGH when the trigger pin goes LOW, and the echo pin only goes LOW again until the trigger wave is received 
    * by the echo pin. Basically PulseIn measures the time it takes for the echo pin to receive the reflected wave of the trigger pin, and loads it into duration
    */
-  distance = (duration*.0343)/2; //time * speed = distance. the speed of sound is 0.0343 cm/microsecond. We divide ny 2 because the signal bounces off and travels back
+  distance = (duration*.0343)/2; //time * speed = distance. the speed of sound is 0.0343 cm/microsecond. We divide by 2 because the signal bounces off and travels back
 
   if(distance < 10 && initFlag == 1){//the initFlag must be a 1 in order for this loop to be accessed. Line 38 sets that condition
     Serial.print("Dispense!");//these two lines are for debugging purposes only, it lets us know if we have entered this loop!
