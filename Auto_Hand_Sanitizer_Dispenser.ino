@@ -54,7 +54,7 @@ void distanceLog(){//this function prints out the current distance of the ultras
   Serial.print('\t');
   Serial.print('\n'); 
 }
-
+//Justin Francisco
 /***********************Acknowledgements**************************************
  * Stepper motor code was borrowed from Helen at: https://www.seeedstudio.com/blog/2019/03/04/driving-a-28byj-48-stepper-motor-with-a-uln2003-driver-board-and-arduino/
  * Ultrasonic sensor code borrowed from Isaac at: https://create.arduino.cc/projecthub/Isaac100/getting-started-with-the-hc-sr04-ultrasonic-sensor-036380
